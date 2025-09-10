@@ -1,0 +1,61 @@
+/* RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(93, 94, 11, 0.437);
+    height: 100vh; /* preenche todo espaço do site */
+    display: flex; /* centraliza */
+    justify-content: center; /* centraliza horizontal */
+    align-items: center; /* centraliza vertical */
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+h1{
+    font-size: 128px;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2{
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+.destaque{
+    background-color: rgb(54, 9, 205);
+    color:aliceblue;
+    padding: 1px 32px;
+}
+
+.destaque:hover{
+    background-color: black;
+    padding: 10px 45px;
+    color: rgb(218, 35, 35);
+    transition: 2s;
+}
+
+.social-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.social-container img {
+    width: 100px;
+}
