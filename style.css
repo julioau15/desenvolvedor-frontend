@@ -30,22 +30,25 @@ h2{
     font-family: sans-serif;
     font-weight: 100;
     text-align: center;
+    padding: 0px 10px;
+
 }
 
 div{
     display: flex;
     justify-content: center;
+    padding: 15px;
 }
 
 .destaque{
     background-color: rgb(54, 9, 205);
     color:aliceblue;
-    padding: 1px 32px;
+    padding: 1px 25px;
 }
 
 .destaque:hover{
     background-color: black;
-    padding: 10px 45px;
+    padding: 1px 45px;
     color: rgb(218, 35, 35);
     transition: 2s;
 }
