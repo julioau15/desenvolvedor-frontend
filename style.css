@@ -19,8 +19,8 @@ main{
 }
 
 h1{
-    font-size: 128px;
-    font-family: sans-serif;
+    font-size: 7rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 700;
     text-align: center;
 }
@@ -37,28 +37,37 @@ h2{
 div{
     display: flex;
     justify-content: center;
-    padding: 15px;
+    padding: 0px;
+    gap: 10px;
 }
 
 .destaque{
     background-color: rgb(54, 9, 205);
     color:aliceblue;
-    padding: 1px 25px;
+    padding: 1px 10px;
 }
 
 .destaque:hover{
     background-color: black;
-    padding: 1px 45px;
+    transform: scaleX(1.1);
     color: rgb(218, 35, 35);
-    transition: 2s;
+    transition: 1.5s ease;
 }
 
 .social-container{
     display: flex;
     justify-content: space-between;
+    width: 350px;
+    margin: 0 auto;
+    height: auto;
     
 }
 
 .social-container img {
-    width: 100px;
+    width: 80px;
+}
+
+.social-container img:hover{
+    transform: scale(1.1);
+    transition: 1s ease;
 }
