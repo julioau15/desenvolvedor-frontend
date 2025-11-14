@@ -1,3 +1,4 @@
 
 # desenvolvedor-frontend
-<img width="1920" height="953" alt="Image" src="https://github.com/user-attachments/assets/edf46a4d-59e6-4835-ad2c-abb6b05af0e5" />
+
+<img width="3082" height="1964" alt="frontend-developer" src="https://github.com/user-attachments/assets/f7f3c32b-3292-4b5b-a32e-040f39734419" />
